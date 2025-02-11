@@ -42,17 +42,10 @@
     "id": "65e6757e-6c02-4bd3-a517-479b1e2465a2"
   },
   {
-    "title": "The Legend two",
+    "id": "c0ae57e5-3ffb-4a53-bba9-f863ca0d7037",
+    "title": "The Legend fffffff",
     "year": "2013",
     "genre": "Biography, Comedy, Crime",
-    "rating": "8.2",
-    "id": "8fcb27d0-12c0-488e-a045-094a5d6e50cb"
-  },
-  {
-    "title": "The Legend three",
-    "year": "2013",
-    "genre": "Biography, Comedy, Crime",
-    "rating": "8.2",
-    "id": "1facce15-8446-4fa0-a333-3de62501abcd"
+    "rating": "8.2"
   }
 ]
