@@ -18,7 +18,8 @@ module.exports = (req, res) => {
           message: "UUID is not valid",
         })
       );
-    } else if (baseUrl === "/api/movies/" && regexV4.test(id)) {
+    } 
+    else if (baseUrl === "/api/movies/" && regexV4.test(id)) {
       res.setHeader("Content-Type", "application/json");
       let filteredMovie = req.movies.filter((movie) => {
         return movie.id === id;
@@ -35,7 +36,8 @@ module.exports = (req, res) => {
         );
         res.end();
       }
-    } else {
+    } 
+    else {
       res.writeHead(404, { "Content-Type": "application/json" });
       res.end(JSON.stringify({ title: "Not Found", message: "Route not found" }));
     }
